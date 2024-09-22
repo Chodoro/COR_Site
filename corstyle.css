@@ -53,3 +53,46 @@ header {
 .reg-number {
     color: red;
 }
+
+/*student gen. info*/
+.student-general-info {
+    border: 1px solid;
+}
+
+.general-info-header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info-block {
+    width: 48%;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*subjects section*/
+.subject-section {
+    border: 1px solid #000;
+    border-bottom: 10px;
+    margin-bottom: 0
+    padding: 0;
+}
+
+.subject-header, .subject-row {
+    display: grid;
+    grid-template-columns: 80px 200px 50px 50px 80px 150px 150px;
+    align-items: center;
+    padding: 1px 0;
+    width: 100%;
+}
+
+.subject-header div, .subject-row div {
+    text-align: center;
+    padding: 1px;
+}
