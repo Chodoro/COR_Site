@@ -93,13 +93,13 @@ header {
 .subject-section {
     border: 1px solid #000;
     border-bottom: 10px;
-    margin-bottom: 0
+    margin-bottom: 10px;
     padding: 0;
 }
 
 .subject-header, .subject-row {
     display: grid;
-    grid-template-columns: 80px 200px 50px 50px 80px 150px 150px;
+    grid-template-columns: 80px 200px 50px 50px 50px 80px 150px 150px;
     align-items: center;
     padding: 1px 0;
     width: 100%;
@@ -142,3 +142,78 @@ header {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.fees-container, .refund-rules {
+    width: 48%;
+}
+
+.fees-container {
+    border: 1px solid #000;
+}
+
+.fees-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.fees-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    font-weight: bold;
+    border-top: 1px solid #000;
+}
+
+/*schedule of payment section */
+.schedule-payment {
+    border-top: none;
+}
+
+.payment-header {
+    text-align: center;
+    background-color: #4d66b96c;
+    padding: 1px;
+    border-top: 1px solid;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+.payment-header h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*payment table*/
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.payment-table th, .payment-table td {
+    border: 1px solid #000;
+    padding: 1px;
+    text-align: center;
+}
+
+.payment-table th {
+    font-weight: bold;
+}
+
+/*refund rules*/
+.refund-rules {
+    padding: 1px;
+}
+
+.refund-rules h3 {
+    margin-bottom: 1px;
+}
+
+.refund-rules ol {
+    list-style-type: decimal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
